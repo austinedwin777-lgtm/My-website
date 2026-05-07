@@ -1,0 +1,793 @@
+@media (max-width: 72rem) {
+    html {
+        font-size: 56.25%;
+    }
+    .circle-div {
+    top: -5rem;
+    right: -50.5rem;
+    }
+    #ex-svg2 {
+    top: -10rem;
+    right: -33rem;
+    }
+    #ex-svg {
+    bottom: -4rem;
+    left: -33rem;
+  }
+  #pipe2 {
+    top: -21rem;
+    right: -61.4rem;
+
+}
+#pipe1 {
+    top: -12rem;
+    right: -56rem;
+}
+#pipe3 {
+    top: -17.5rem;
+    right: -51rem;
+   }
+}
+
+@media (max-width: 63rem) {
+    html {
+        font-size: 50%;
+    }
+    #ex-svg2 {
+    top: -10rem;
+    right: -32rem;
+    }
+    #ex-svg {
+    bottom: -4rem;
+    left: -30rem;
+  }
+  #pipe2 {
+    top: -21rem;
+    right: -59.4rem;
+
+}
+#pipe1 {
+    width: 8.5rem;
+    top: -10rem;
+    right: -53rem;
+}
+#pipe3 {
+    top: -18.5rem;
+    right: -51rem;
+   }
+#pipe2b {
+    bottom: -5rem;
+    left: -44.4rem;
+
+}
+#pipe1b {
+    width: 8.5rem;
+    bottom: -7rem;
+    left: -55rem;
+}
+#pipe3b {
+    bottom: 2rem;
+    left: -70rem;
+   }
+}
+
+@media (max-width: 58rem) {
+    html {
+        font-size: 50%;
+    }
+    #ex-svg2 {
+    top: -10rem;
+    right: -32rem;
+    }
+    #ex-svg {
+    bottom: -4rem;
+    left: -30rem;
+  }
+  #pipe2 {
+    top: -20rem;
+    right: -53.4rem;
+
+}
+#pipe1 {
+    width: 8.5rem;
+    top: -10rem;
+    right: -48rem;
+}
+#pipe3 {
+    top: -17.5rem;
+    right: -45.9rem;
+   }
+#pipe2b {
+    bottom: -5rem;
+    left: -44.7rem;
+
+}
+#pipe1b {
+    width: 8.5rem;
+    bottom: -7rem;
+    left: -55rem;
+}
+#pipe3b {
+    bottom: 2rem;
+    left: -70rem;
+   }
+}
+
+
+@media (max-width: 55rem) {
+    html {
+        font-size: 50%;
+    }
+    #ex-svg2 {
+    top: -11rem;
+    right: -29rem;
+    }
+    #ex-svg {
+    bottom: -2rem;
+    left: -25rem;
+  }
+#pipe2b {
+    bottom: -5rem;
+    left: -37.7rem;
+
+}
+#pipe1b {
+    width: 8rem;
+    bottom: -10rem;
+    left: -51rem;
+}
+#pipe3b {
+    bottom: -1rem;
+    left: -66rem;
+   }
+ .circle-div {
+    top: -5.8rem;
+    right: -44.5rem;
+}
+}
+
+
+@media (max-width: 51rem) {
+    html {
+        font-size: 50%;
+    }
+    #ex-svg2 {
+    width: 2.5rem;
+    top: -10rem;
+    right: -25rem;
+    }
+    #ex-svg {
+    width: 2.5rem;
+    bottom: -2rem;
+    left: -25rem;
+  }
+#pipe2b {
+    bottom: -5rem;
+    left: -37.7rem;
+
+}
+#pipe1b {
+    width: 8rem;
+    bottom: -8rem;
+    left: -49rem;
+}
+#pipe3b {
+    bottom: 2rem;
+    left: -63rem;
+   }
+ .circle-div {
+    top: -5.8rem;
+    right: -44.5rem;
+}
+ #pipe2 {
+    top: -20rem;
+    right: -50.4rem;
+
+}
+#pipe1 {
+    width: 8.5rem;
+    top: -10rem;
+    right: -45rem;
+}
+#pipe3 {
+    top: -18.5rem;
+    right: -42.9rem;
+   }
+}
+
+
+@media (max-width: 48rem) {
+    .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .hero-heading {
+        text-align: center;
+        line-height: 1.2;
+        margin-bottom: 3rem;
+    }
+    .hero-header {
+    width: 100%;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    }
+    .right-div {
+        display: block;
+    }
+    .hero-right-image {
+        display: none;
+    }
+    .hero-header svg {order: 1;}
+    .main-hero-heading {order: 2;}
+    .right-div {order: 3;}
+    .main-paragrah {order: 4;}
+    .main-input-space {order: 5;}
+
+    .right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0rem;
+    width: 100%;
+    height: 56rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    }
+    .hero-paragraph {
+        font-size: 1.5rem;
+    }
+    .svg-face-up {
+    position: relative;
+    top: 0.9rem;
+    left: -19.5rem;
+    }
+    .main-input-space {
+    width: 100%;
+    }
+    .input-space {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 5rem 0rem;
+    }
+    .girl-image {
+    width: 40rem;
+    height: 23rem;
+    display: block;
+    transform: scale(3.0);
+    position: relative;
+    top: 7rem;
+    right: 0rem;
+    }
+    .light-blue {
+    width: 56rem;
+    height: 56rem;
+    border-radius: 50%;
+    background-color: #e6eef5;
+    position: static;
+    }
+    .semi-light-blue {
+    width: 43rem;
+    height: 43rem;
+    border-radius: 50%;
+    background-color: #bdccda;
+    }
+    .yellow {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f4c542;
+    }
+    .rating-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    }
+    #sub-rating-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+    width: 55rem;
+    height: 25rem;
+    border-radius: 10px;
+    background-color: var(--card-back);
+    color: var(--dark-blue-buttonsNav);
+    }
+    .course-section-flex {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    margin: 0rem auto 3rem auto;
+    justify-content: center;
+    }
+    #course-p {
+    color: var(--gray-text-one);
+    font-size: 1.5rem;
+    }
+    .sub-course-flex {
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .course-section button {
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    }
+    .dev-ops-flex {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    }
+    #lst-img {
+    display: block;
+    width: 13rem;
+    margin-top: 2rem;
+    }
+    #lst-feedback-img {
+    display: block;
+    width: 13rem;
+    margin-top: 2rem;
+    }
+    #lst-blog-img {
+    display: block;
+    width: 13rem;
+    position: relative;
+    top: -12rem;
+    }
+    .feedback-flex .sub-feedback-flex:nth-child(n+2) {
+    display: none;
+    }
+    .blog-flex .blog-content:nth-child(n+2) {
+    display: none;
+    }
+    .lstp, .blog-p {
+    font-size: 2.0rem;
+    }
+    .blog-content {
+    width: 100%;
+    padding: 2rem;
+    }
+    #blog-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 20px;
+    margin-bottom: 2rem;
+    }
+    .training-flex {
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    }
+    .training-p {
+        font-size: 1.5rem;
+    }
+    .scroll {
+    display: none;
+    }
+    .library-flex {
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .library-div {
+    width: 100%;
+    padding: 15rem;
+    justify-content: center;
+    align-items: center;
+    }
+    .accordion-grid {
+    display: flex;
+    flex-direction: column;
+    }
+    #accordion-p {
+        font-size: 1.5rem;
+    }
+    .sub-accordion-flex {
+    padding: 2rem;
+    }
+    .footer-flex {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 8rem;
+    justify-content: center;
+    padding: 2rem;
+    }
+    footer li {
+      font-size: 1.5rem;
+    }
+    #policy, .copyright {
+        font-size: 1.4rem;
+    }
+    .lst-element {
+    grid-row: span 2;
+    }
+    .icons {
+        width: 3rem;
+    }
+    #menu {
+        display: block;
+    }
+    .ul-list {
+        display: none;
+    }
+    .circle-div {
+    top: -7.8rem;
+    right: -30rem;
+} 
+    #ex-svg2 {
+    width: 2.3rem;
+    top: -10rem;
+    right: -10rem;
+    }
+    #ex-svg {
+    width: 2.3rem;
+    bottom: -5rem;
+    left: -12rem;
+  }
+  .sub-other-section {
+    background-color: rgb(240, 240, 240);
+  }
+    #pipe2 {
+    top: -20rem;
+    right: -39rem;
+
+}
+#pipe1 {
+    width: 8.5rem;
+    top: -10rem;
+    right: -33rem;
+}
+#pipe3 {
+    top: -17.5rem;
+    right: -29.9rem;
+   }
+#pipe2b {
+    bottom: -5rem;
+    left: -27.7rem;
+
+}
+#pipe1b {
+    width: 8.5rem;
+    bottom: -7rem;
+    left: -38rem;
+}
+#pipe3b {
+    bottom: 1.8rem;
+    left: -54rem;
+   }
+}
+
+@media (max-width: 29rem) {
+    .girl-image {
+    width: 38rem;
+    height: 22rem;
+    transform: scale(2.8);
+    }
+    .light-blue {
+    width: 51rem;
+    height: 51rem;
+    border-radius: 50%;
+
+    }
+    .semi-light-blue {
+    width: 41rem;
+    height: 41rem;
+    border-radius: 50%;
+    }
+    .yellow {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f4c542;
+    }
+}
+
+@media (max-width: 33.5rem) {
+    .circle-div {
+    top: -8.8rem;
+    right: -23rem;
+} 
+    #ex-svg2 {
+    width: 2.3rem;
+    top: -7rem;
+    right: -3rem;
+    }
+    #ex-svg {
+    width: 2.3rem;
+    bottom: -2rem;
+    left: -7rem;
+  }
+    #pipe2 {
+    top: -20rem;
+    right: -29rem;
+
+}
+#pipe1 {
+    width: 8.5rem;
+    top: -10rem;
+    right: -23rem;
+}
+#pipe3 {
+    top: -17.5rem;
+    right: -19.9rem;
+   }
+#pipe2b {
+    bottom: -5rem;
+    left: -18.7rem;
+
+}
+#pipe1b {
+    width: 8.5rem;
+    bottom: -7rem;
+    left: -29rem;
+}
+#pipe3b {
+    bottom: 0.1rem;
+    left: -46rem;
+   }
+}
+
+@media (max-width: 27rem) {
+    .hero-heading {
+        font-size: 2.9rem;
+    }
+    .girl-image {
+    width: 38rem;
+    height: 22rem;
+    transform: scale(2.0);
+    top: 4rem;
+    right: 0rem;
+    }
+    .right-div {
+        height: 35rem;
+    }
+    .light-blue {
+    width: 34rem;
+    height: 34rem;
+    }
+    .semi-light-blue {
+    width: 28rem;
+    height: 28rem;
+    }
+    .yellow {
+    width: 23rem;
+    height: 23rem;
+    }
+    #sub-rating-section {
+    width: 40rem;
+    }
+    .course-section h1, .feedback-h2 {
+        font-size: 2rem;
+    }
+    .circle-div {
+    top: -8rem;
+    right: 10rem;
+} 
+    #ex-svg2 {
+    width: 2.3rem;
+    top: -7rem;
+    right: -3rem;
+    }
+    #ex-svg {
+    width: 2.3rem;
+    bottom: -5rem;
+    left: -2rem;
+  }
+    #pipe2 {
+    top: -20rem;
+    right: -29rem;
+
+}
+#pipe2b {
+    bottom: -5rem;
+    left: -12.7rem;
+
+}
+#pipe1b {
+    width: 8.5rem;
+    bottom: -7rem;
+    left: -23rem;
+}
+#pipe3b {
+    bottom: 2rem;
+    left: -38rem;
+   }
+
+}
+
+@media (max-width: 25rem) {
+    #sub-rating-section {
+    width: 43rem;
+    }
+    .profile-one {
+        width: 4rem;
+    }
+    .profile-two {
+        width: 6rem;
+    }
+    .course-section h1, .feedback-h2 {
+        font-size: 2rem;
+    }
+    #ex-svg2 {
+    width: 1.5rem;
+    top: -10rem;
+    right: 2rem;
+    }
+    #ex-svg {
+    width: 1.5rem;
+    bottom: -5rem;
+    left: 1rem;
+  }
+    #pipe2 {
+    top: -20rem;
+    right: -25rem;
+   }
+   #pipe1 {
+    top: -10rem;
+    right: -19rem;
+   }
+   #pipe3 {
+    top: -17.5rem;
+    right: -15.9rem;
+   }
+#pipe2b {
+    bottom: -5rem;
+    left: -8.7rem;
+
+}
+#pipe1b {
+    width: 8.5rem;
+    bottom: -7rem;
+    left: -19.5rem;
+}
+#pipe3b {
+    bottom: 2rem;
+    left: -35rem;
+   }
+
+}
+@media (max-width: 23rem) {
+    .division {
+        width: 100%;
+    }
+}
+@media (max-width: 21.5rem) {
+    .division {
+        width: 100%;
+    }
+        .circle-div {
+    top: -8.8rem;
+    right: -15rem;
+   }
+    #sub-rating-section {
+    width: 35rem;
+    height: 25rem;
+    } 
+}
+
+@media (max-width: 18.75rem) {
+    .hero-heading {
+    font-size: 2.7rem;
+    margin-bottom: 0rem;
+    }
+    .right-div {
+        height: 28rem;
+    }
+    .svg-face-up {
+    left: -13.5rem;
+    }
+    .svg-face-up-two {
+    left: -12.5rem;
+    }
+    .girl-image {
+    top: 4rem;
+    transform: scale(1.5);
+    }
+    .light-blue {
+    position: relative;
+    top: 2rem;
+    left: 0.5rem;
+    width: 30rem;
+    height: 30rem;
+    }
+    .semi-light-blue {
+    width: 22rem;
+    height: 22rem;
+    }
+    .yellow {
+    width: 15rem;
+    height: 15rem;
+    }
+    #sub-rating-section {
+    width: 30rem;
+    }
+    .dev-ops {
+    width: 28rem;
+    height: 13rem;
+    }
+    #circle-one, #circle-three {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    #circle-two {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .circle-div {
+    top: -4.8rem;
+    right: -13rem;
+    }
+    #ex-svg2 {
+    width: 1.5rem;
+    top: -9rem;
+    right: -8rem;
+    }
+    #ex-svg {
+    width: 1.5rem;
+    bottom: -8rem;
+    left: 1rem;
+  }
+    #pipe2 {
+    width: 7rem;
+    top: -20rem;
+    right: -18rem;
+   }
+   #pipe1 {
+    width: 7rem;
+    top: -10rem;
+    right: -14rem;
+   }
+   #pipe3 {
+    width: 7rem;
+    top: -16.5rem;
+    right: -11rem;
+   }
+#pipe2b {
+    width: 7rem;
+    bottom: -7rem;
+    left: -9.5rem;
+
+}
+#pipe1b {
+    width: 7rem;
+    bottom: -9rem;
+    left: -16.5rem;
+}
+#pipe3b {
+    width: 7rem;
+    bottom: -1rem;
+    left: -28rem;
+   }
+    .icons {
+        width: 2.5rem;
+    }
+    .bold-li {
+        font-size: 2.5rem;
+    }
+}
