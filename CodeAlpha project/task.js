@@ -38,7 +38,7 @@ function ageCalculation(actualSelectedMonth) {
     if (year > yearInput && actualMonth > actualSelectedMonth && day > dayInput ) {
         ageDifference();
     } else if (year > yearInput && actualMonth < actualSelectedMonth && day > dayInput ) {
-        ageYear = year - yearInput;
+        ageYear = year - yearInput - 1;
         ageMonth = 12 + actualMonth - actualSelectedMonth;
         ageDay = day - dayInput;
     } else if (year > yearInput && actualMonth > actualSelectedMonth && day < dayInput ) {
