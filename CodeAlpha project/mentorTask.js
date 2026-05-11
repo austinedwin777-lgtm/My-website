@@ -1,7 +1,10 @@
-// Getting Documents As Object
+// Getting Documents As Objrct
 const input = document.getElementById("input");
 const addButton = document.getElementById("addButton");
 let listItems = document.getElementById("listItems");
+let p = document.getElementById("pElem");
+p.style.display = "none";
+
 
 // Creating Storage
 let tasks = [];
@@ -12,17 +15,15 @@ function render() {
   
   tasks.forEach((task, index) => {
     let li = document.createElement("li");
-    li.innerText = task.text;
+     li.textContent = task.completed
+      ? "✔ " + task.text
+      : task.text;
     
     let delBtn = document.createElement("button");
-    delBtn.innerText = "Delete"
+    delBtn.innerText = "❌"
     delBtn.addEventListener("click", () => {
       deleteTask(index)
     })
-    
-        li.textContent = task.completed
-      ? "✔ " + task.text
-      : task.text;
 
     // ➕ COMPLETE TOGGLE (no keyword)
     li.addEventListener("click", () => {
@@ -47,7 +48,13 @@ function deleteTask(index) {
 }
 
 addButton.addEventListener("click", () => {
-  addTask(input.value);
+  if (!input.value.trim()) {
+    p.style.display = "block"
+    return;
+  } else {
+    p.style.display = "none"
+  }
   
+  addTask(input.value);
   input.value = "";
 })
