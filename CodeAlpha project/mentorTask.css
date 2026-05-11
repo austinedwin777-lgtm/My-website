@@ -11,6 +11,8 @@ body {
 .main-container {
   width: 90%;
   margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
   background-color:  #161B22;
 }
 .task-container {
@@ -28,7 +30,7 @@ input {
   border: none;
   background-color:  #21262D;
   color:  #E6EDF3;
-  border: 2px solid  #d1d5db;
+  border 2px solid  #d1d5db
 }
 #addButton {
   padding: 8px;
@@ -58,4 +60,10 @@ li button {
   color: #ffffff;
   font-weight: bold;
   margin-right: 10px;
+}
+p {
+  text-align: center;
+  padding: 10px;
+  color: #DA3633;
+  font-weight: bold;
 }
